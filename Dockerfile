@@ -1,4 +1,13 @@
 FROM openshift/php-70-centos7
 
-# Your app
-ADD app/* /
+ADD app /app
+
+
+RUN yum -y update; yum clean all
+RUN yum -y install texlive \
+  texlive-latex \
+  texlive-xetex \
+  texlive-collection-latex \
+  texlive-collection-latexrecommended \
+  texlive-xetex-def \
+  texlive-collection-xetex

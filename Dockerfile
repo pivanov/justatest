@@ -2,6 +2,7 @@ FROM openshift/php-70-centos7
 
 ADD app /app
 
+RUN echo "pivanov"
 
 RUN yum -y update; yum clean all
 RUN yum -y install texlive \

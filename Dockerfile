@@ -1,4 +1,4 @@
-FROM example-php-sti-helloworld/asd
+FROM centos7
 
 ADD app /app
 

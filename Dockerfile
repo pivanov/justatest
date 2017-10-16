@@ -1,3 +1,5 @@
+FROM example-php-sti-helloworld/asd
+
 ADD app /app
 
 RUN echo "pivanov"

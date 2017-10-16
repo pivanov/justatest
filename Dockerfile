@@ -1,4 +1,4 @@
-FROM centos7
+FROM centos/php-70-centos7
 
 ADD app /app
 

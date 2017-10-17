@@ -4,4 +4,5 @@ ADD app /app
 
 RUN echo "================================================================================"
 
+USER root
 RUN yum -y update; yum clean all

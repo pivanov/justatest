@@ -1,4 +1,4 @@
-FROM centos/php-70-centos7
+FROM thatsamguy/trusty-php71
 
 ADD app /app
 

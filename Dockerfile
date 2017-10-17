@@ -1,4 +1,4 @@
-FROM centos/php-70-centos7
+FROM weepee-registry/php7-webserver
 
 USER root
 

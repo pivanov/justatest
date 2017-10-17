@@ -1,4 +1,4 @@
-FROM tplatform/aws-linux-httpd24-php70
+FROM openshift/php-70-centos7
 
 USER root
 

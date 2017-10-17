@@ -6,4 +6,4 @@ RUN echo "======================================================================
 RUN echo "================================================================================"
 
 USER root
-RUN sudo yum -y update; sudo yum clean all
+RUN yum -y install texlive

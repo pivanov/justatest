@@ -1,4 +1,4 @@
-FROM docprof/s2i-php7
+FROM thatsamguy/xenial-php71
 
 USER root
 

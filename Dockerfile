@@ -1,4 +1,4 @@
-FROM FROM weepee-registry/php7-webserver
+FROM tplatform/aws-linux-httpd24-php70
 
 ADD app /app
 

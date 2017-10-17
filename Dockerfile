@@ -1,4 +1,4 @@
-FROM weepee-registry/php7-webserver
+FROM docprof/s2i-php7
 
 USER root
 

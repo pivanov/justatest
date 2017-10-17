@@ -1,4 +1,4 @@
-FROM thatsamguy/trusty-php71
+FROM FROM weepee-registry/php7-webserver
 
 ADD app /app
 
